@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Saml2;
+namespace Beedooedtech\BeedooSaml2;
 
 use DateTime;
 use GuzzleHttp\Exception\GuzzleException;
@@ -198,7 +198,7 @@ class Provider extends AbstractProvider implements SocialiteProvider
             ->setProtocolBinding($this->getDefaultAssertionConsumerServiceBinding())
             ->setIssueInstant(new DateTime())
             ->setDestination($identityProviderConsumerService->getLocation())
-            ->setNameIDPolicy((new NameIDPolicy())->setFormat($this->getNameIDFormat()))
+            // ->setNameIDPolicy((new NameIDPolicy())->setFormat($this->getNameIDFormat()))
             ->setIssuer(new Issuer($this->getServiceProviderEntityDescriptor()->getEntityID()))
             ->setAssertionConsumerServiceURL($this->getServiceProviderAssertionConsumerUrl());
 

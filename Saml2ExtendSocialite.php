@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Saml2;
+namespace Beedooedtech\BeedooSaml2;
 
 use SocialiteProviders\Manager\SocialiteWasCalled;
 

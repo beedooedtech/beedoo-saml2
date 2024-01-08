@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Saml2;
+namespace Beedooedtech\BeedooSaml2;
 
 use Laravel\Socialite\AbstractUser;
 use LightSaml\Model\Assertion\Assertion;
