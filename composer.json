@@ -1,5 +1,5 @@
 {
-    "name": "socialiteproviders/saml2",
+    "name": "beedooedtech/beedoo-saml2",
     "description": "SAML2 Service Provider for Laravel Socialite",
     "license": "MIT",
     "keywords": [
@@ -28,7 +28,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialiteProviders\\Saml2\\": ""
+            "Beedooedtech\\BeedooSaml2\\": ""
         }
     }
 }
